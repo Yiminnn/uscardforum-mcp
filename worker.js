@@ -9,11 +9,11 @@ export class USCardForumContainer extends Container {
   sleepAfter = '5m';
   
   // Optional hooks for debugging
-  override onStart() {
+  onStart() {
     console.log('USCardForum Container started');
   }
 
-  override onError(error) {
+  onError(error) {
     console.error('USCardForum Container error:', error);
   }
 }
